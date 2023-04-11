@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=, initial-scale=1.0" />
+    <title>keyframe animation</title>
+    <style type="text/css">
+      img {
+        border-radius: 80%;
+      }
+
+      div {
+        border-radius: 50%;
+        width: 100px;
+        height: 100px;
+        background-color: blue;
+        position: relative;
+        animation-name: test;
+        animation-duration: 5s;
+        animation-delay: 5s;
+      }
+      @keyframes test {
+        0% {
+          background-color: brown;
+          left: 0px;
+          top: 0px;
+        }
+        25% {
+          background-color: black;
+          left: 200px;
+          top: 0px;
+        }
+        50% {
+          background-color: blue;
+          left: 200px;
+          top: 200px;
+        }
+        75% {
+          background-color: aqua;
+          left: 200px;
+          top: 200px;
+        }
+        100% {
+          background-color: azure;
+          left: 0px;
+          top: 0px;
+        }
+      }
+    </style>
+  </head>
+  <div></div>
+  <body>
+    <img src="/asset/images/adele.jpg" alt="logo" width="400" height="400" />
+  </body>
+</html>

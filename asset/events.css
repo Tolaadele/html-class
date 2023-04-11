@@ -1,0 +1,43 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+.signup-btn {
+  float: right;
+  margin-right: 70px;
+  text-transform: uppercase;
+}
+.signup,
+.login {
+  text-transform: uppercase;
+  padding: 10px;
+  align-items: center;
+  justify-content: space-between;
+}
+.navbar {
+  display: flex;
+  margin: 10px 70px;
+  align-items: end;
+  justify-content: space-between;
+  text-align: right;
+}
+.company name,
+.nav-items {
+  margin: 0 50px;
+}
+.nav-items {
+  display: flex;
+  margin: 0 70px;
+  align-items: end;
+  justify-content: space-between;
+}
+.nav-items a {
+  margin: 20px;
+}
+.hero {
+  text-align: center;
+  padding: 150px 50px 50px;
+  background-image: url(https://images.unsplash.com/photo-1680466357571-e2a63c884093?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=387&q=80);
+}

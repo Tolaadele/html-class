@@ -1,0 +1,19 @@
+.menubar {
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: rgb(0, 255, 64);
+}
+.menu-items {
+  margin-right: 50px;
+}
+
+.menu-items a {
+  margin-right: 50px;
+  padding: 20px;
+  border-radius: 20px;
+  color: white;
+  margin: 10px;
+  text-decoration: none;
+}
